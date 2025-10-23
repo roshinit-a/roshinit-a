@@ -34,7 +34,7 @@ p>
 
 <p align="center">
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=roshinit-a&show_icons=true&theme=default&hide_border=true&title_color=0A66C2&icon_color=0A66C2" alt="GitHub Stats" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=roshinit-a&theme=default&hide_border=true&ring=0A66C2&fire=0A66C2&currStreakLabel=0A66C2" alt="GitHub Streak" />
+  <!-- <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=roshinit-a&theme=default&hide_border=true&ring=0A66C2&fire=0A66C2&currStreakLabel=0A66C2" alt="GitHub Streak" /> -->
 </p>
 
 ---
