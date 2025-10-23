@@ -10,6 +10,10 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=20&duration=3000&pause=800&color=0A66C2&center=true&vCenter=true&width=550&lines=ML+Engineer+%7C+Python+Developer;Deep+Learning+Enthusiast;Data-Driven+Problem+Solver" alt="Typing Animation" />
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=roshinit-a&color=0A66C2&style=flat" alt="Profile views" />
+</p>
+
 ---
 
 ### 🧭 About Me
@@ -26,15 +30,14 @@
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,sklearn,pandas,numpy,jupyter,git,docker,aws,gcp,linux&theme=light" alt="Tech Stack" />
-p>
+</p>
 
 ---
 
 ### 📊 GitHub Overview
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=roshinit-a&show_icons=true&theme=default&hide_border=true&title_color=0A66C2&icon_color=0A66C2" alt="GitHub Stats" />
-  <!-- <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=roshinit-a&theme=default&hide_border=true&ring=0A66C2&fire=0A66C2&currStreakLabel=0A66C2" alt="GitHub Streak" /> -->
+  <img width="60%" src="https://github-readme-stats.vercel.app/api?username=roshinit-a&show_icons=true&theme=dracula&hide_border=true&title_color=0A66C2&icon_color=0A66C2" alt="GitHub Stats" />
 </p>
 
 ---
@@ -42,7 +45,7 @@ p>
 ### ⚡ GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=roshinit-a&theme=github-light&bg_color=ffffff&hide_border=true&line=0A66C2&point=0A66C2&area=true&area_color=E0F2FF" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=roshinit-a&theme=dracula&hide_border=true&line=0A66C2&point=0A66C2&area=true&area_color=E0F2FF" alt="Activity Graph" />
 </p>
 
 ---
@@ -60,7 +63,11 @@ p>
 ### 🐍 My Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/roshinit-a/roshinit-a/main/dist/snake.svg" alt="Snake Animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/roshinit-a/roshinit-a/main/dist/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/roshinit-a/roshinit-a/main/dist/snake.svg" />
+    <img alt="Snake Animation" src="https://raw.githubusercontent.com/roshinit-a/roshinit-a/main/dist/snake.svg" />
+  </picture>
 </p>
 
 ---
@@ -80,19 +87,11 @@ p>
     <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white"/>
   </a>
   &nbsp;
-  <a href="mailto:[roshanraj6476@gmail.com]" target="_blank">
-    <img src="httpsD://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white"/>
+  <a href="mailto:roshanraj6476@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
   &nbsp;
   <a href="https://x.com/ROSHANR60974155" target="_blank">
     <img src="https://img.shields.io/badge/X%20(Twitter)-1DA1F2?style=flat&logo=x&logoColor=white"/>
   </a>
-</p>
-
-
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0A66C2&height=120&section=footer"/>
 </p>
