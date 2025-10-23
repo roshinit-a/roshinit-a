@@ -8,7 +8,6 @@ on:
 
 jobs:
   build:
-    # This line is very important!
     permissions:
       contents: write 
 
@@ -22,18 +21,17 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: roshinit-a
-          # This creates both files
-          outputs: dist/snake.svg,dist/snake-dark.svg?palette=github-dark
+          
+          # We are back to only creating the one light snake file
+          outputs: dist/snake.svg
           
       - name: Push to repo
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # ⬇️ ⬇️ THIS IS THE FIX ⬇️ ⬇️
-          # This adds BOTH files from the 'dist' folder
-          git add dist/
-          # ⬆️ ⬆️ THIS IS THE FIX ⬆️ ⬆️
+          # We only need to add the one file
+          git add dist/snake.svg
           
           git commit -m "feat: update snake animation" || exit 0
           git push
