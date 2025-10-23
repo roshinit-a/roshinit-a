@@ -8,7 +8,6 @@ on:
 
 jobs:
   build:
-    # This is the permission step I mentioned. 
     # This line is very important!
     permissions:
       contents: write 
@@ -22,17 +21,19 @@ jobs:
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
-          # Your GitHub username
           github_user_name: roshinit-a
-          
-          # This is the corrected line:
-          # We use 'outputs' instead of 'svg_out_path'
+          # This creates both files
           outputs: dist/snake.svg,dist/snake-dark.svg?palette=github-dark
           
       - name: Push to repo
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # ⬇️ ⬇️ THIS IS THE FIX ⬇️ ⬇️
+          # This adds BOTH files from the 'dist' folder
           git add dist/
+          # ⬆️ ⬆️ THIS IS THE FIX ⬆️ ⬆️
+          
           git commit -m "feat: update snake animation" || exit 0
           git push
