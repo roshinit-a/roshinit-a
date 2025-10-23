@@ -27,8 +27,8 @@ jobs:
           
           # This is the corrected line:
           # We use 'outputs' instead of 'svg_out_path'
-          outputs: dist/snake.svg
-
+          outputs: dist/snake.svg,dist/snake-dark.svg?palette=github-dark
+          
       - name: Push to repo
         run: |
           git config --global user.name "github-actions[bot]"
