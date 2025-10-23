@@ -60,7 +60,7 @@ p>
 ### 🐍 My Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/roshinit-a/roshinit-a/output/snake.svg" alt="Snake Animation" />
+  <img src="https://raw.githubusercontent.com/roshinit-a/roshinit-a/main/dist/snake.svg" alt="Snake Animation" />
 </p>
 
 ---
