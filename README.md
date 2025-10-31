@@ -59,14 +59,15 @@
 </p>
 
 ---
-
+<!--
 ### 🐍 My Contribution Snake
 
-<p align="center">
+ <p align="center">
   <img alt="Snake Animation" src="https://raw.githubusercontent.com/roshinit-a/roshinit-a/main/dist/snake.svg" />
-</p>
+</p> 
 
 ---
+-->
 
 ### 🤝 Connect With Me
 
