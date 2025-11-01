@@ -59,7 +59,7 @@
 </p>
 
 ---
-<!--
+
 ### 🐍 My Contribution Snake
 
  <p align="center">
@@ -67,7 +67,6 @@
 </p> 
 
 ---
--->
 
 ### 🤝 Connect With Me
 
